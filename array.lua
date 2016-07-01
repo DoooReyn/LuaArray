@@ -52,7 +52,7 @@ function Array(...)
                 return
             end
             if nil == v then
-                print(string.format('warning : can not set element to `nil` directly.'))
+                print(string.format('warning : can not remove element by using  `nil`.'))
                 return
             end
             __array__[k] = v
